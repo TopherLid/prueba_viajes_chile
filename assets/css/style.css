@@ -1,0 +1,38 @@
+
+/* CSS Base */
+
+*{
+    /*font-family: ;*/
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+ 
+/* Header */
+
+.navbar__logo{
+    width: 25px;
+    height: 25px;
+}
+
+/* Destacados */
+
+#destinos__cards .card{
+    width: fit-content;
+    background-color: #0cccf4;
+}
+
+#destinos__cards .card img{
+    height:200px;
+}
+
+/* Contacto */
+
+/* footer */
+
+footer {
+    background-color: #0cccf4;
+    color: #fff;
+}
