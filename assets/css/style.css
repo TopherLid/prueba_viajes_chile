@@ -2,7 +2,7 @@
 /* CSS Base */
 
 *{
-    /*font-family: ;*/
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -12,9 +12,19 @@ body {
  
 /* Header */
 
+.navbar {
+    background-color: #0cccf4;
+}
+
 .navbar__logo{
     width: 25px;
     height: 25px;
+}
+
+/* */
+
+.title__info{
+    background-color: #0cccf4;
 }
 
 /* Destacados */
@@ -30,9 +40,17 @@ body {
 
 /* Contacto */
 
+#form_comtacto .btn{
+    color: #fff;
+}
+
 /* footer */
 
 footer {
     background-color: #0cccf4;
     color: #fff;
+}
+
+#iconos_footer ul li{
+    display:inline-block;
 }
