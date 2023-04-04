@@ -1,9 +1,13 @@
+/* Inicialización documento */
+
 $(document).ready(function() {
     var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
     var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl);
     });
 });
+
+/* Funciones con las Cards básicas */
 
 $("#icono-card-1").click(function(){
     $("#parrafo-card-1").toggle();
@@ -14,6 +18,8 @@ $("#icono-card-2").click(function(){
 $("#icono-card-3").click(function(){
     $("#parrafo-card-3").toggle();
 });
+
+/* Funciones con las Cards de viajes */
 
 $("#card-1").click(function(){
     $("#card-1").hide();
@@ -27,3 +33,4 @@ $("#card-3").click(function(){
 $("#card-4").click(function(){
     $("#card-4").hide();
 });
+
